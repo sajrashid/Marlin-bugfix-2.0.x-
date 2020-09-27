@@ -123,8 +123,10 @@ tags
 .gcc-flags.json
 /lib/
 
+buildroot
 # Workaround for Deviot+platformio quirks
 Marlin/lib
+Marlin/src
 Marlin/platformio.ini
 Marlin/*/platformio.ini
 Marlin/*/*/platformio.ini
@@ -184,3 +186,8 @@ cmake-build-*
 
 #Python
 __pycache__
+Marlin/Version.h
+Marlin/Marlin.ino
+Marlin/Makefile
+Marlin/Configuration.h
+Marlin/Configuration_adv.h
