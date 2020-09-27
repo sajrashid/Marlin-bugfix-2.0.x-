@@ -1,6 +1,17 @@
 # Mks-Robin-Nano-Marlin2.0-Firmware
 ## Features
-The firmware of Mks Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin)(The based version is based on Marlin2.0.5), added the [LittlevGL](https://github.com/littlevgl/lvgl), supporting colourful GUI and touch screen. It is developed on PlatformIO, we hope more and more developers will participate the development of this repository.
+The firmware of Mks Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin)(The based version is based on Marlin2.0 bugfix) and the below by 
+https://github.com/inib/Marlin/blob/2.0.X-SapphirePro-3.5TFT/ you can see the blog here
+
+https://escope.de/posts/sapphire-pro-marlin/
+
+Vanilla Marlin Touch UI thanks to alpine
+
+Settings should be vanilla for the Two tree's Sappire S PRO
+
+This is a Alpha test 
+
+It is developed on PlatformIO, we hope more and more developers will participate the development of this repository.
 
 ![](https://github.com/makerbase-mks/Mks-Robin-Nano-Marlin2.0-Firmware/blob/master/Images/MKS_Robin_Nano_printing.png)
 
