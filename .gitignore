@@ -189,5 +189,3 @@ __pycache__
 Marlin/Version.h
 Marlin/Marlin.ino
 Marlin/Makefile
-Marlin/Configuration.h
-Marlin/Configuration_adv.h
