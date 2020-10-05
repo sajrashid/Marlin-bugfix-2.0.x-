@@ -3,7 +3,13 @@
 The firmware of Mks Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin)(The based version is based on Marlin2.0 bugfix) and the below by   
 alpine https://github.com/inib/Marlin/blob/2.0.X-SapphirePro-3.5TFT/
 
-### see the blog Below
+### Caution Beta Release
+*Updated Firmware Binary file*
+You should ideally compile the binary, for noobs (we are all noobs at some point) I've included the firmware bin file 
+From the Firmware folder Copy to Robin_nano35.bin to a sd card and power on/ reboot your printer, firmware should flash straight away, takes less that a minute to complete
+*If the process does not start try renaming Robin_nano35.bin to Robin_nano.bin *
+
+### See the blog Below
 
 https://escope.de/posts/sapphire-pro-marlin/
 
@@ -12,18 +18,23 @@ https://escope.de/posts/sapphire-pro-marlin/
 Settings for the Two tree's Sappire S PRO
 
 
-#### added bltouch support 
+#### Added BlTouch/3dTouch support 
 
-see https://github.com/AIIoT/2.0.x-SapphirePro-BLTouch
+See https://github.com/AIIoT/2.0.x-SapphirePro-BLTouch
 
-##### Somewhat tested on Sappire Pro
+#### BlTouch/3dTouch Wiring (Robin Nano 1.x)
 
-see below guide t0 calibrate bltouch/3dtouch
+Inline-style: 
+![alt text](https://github.com/sajrashid/Marlin-bugfix-2.0.x-/blob/master/Images/BltouchWiring.Png "BltouchWiring")
 
-https://locxess.de/3d/BLTouch_Anleitung_englisch.pdf
+##### Calibration
 
-##### Calibration with GCode 
-*#define min_software_endstops false* or use negative value get with with the M851 command, 
+See https://locxess.de/3d/BLTouch_Anleitung_englisch.pdf to calibrate bltouch/3dtouch
+
+##### Calibration with GCode
+
+*#define min_software_endstops false* or use negative value get with with the M851 command.
+
 *Ensure Eprom is intialised from Marlin*       
 
 *  M851 ; note the number
