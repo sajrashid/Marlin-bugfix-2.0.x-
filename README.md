@@ -23,8 +23,8 @@ see below guide t0 calibrate bltouch/3dtouch
 https://locxess.de/3d/BLTouch_Anleitung_englisch.pdf
 
 ##### Calibration with GCode 
-*Emphasized text* Pre-req(s) #define min_software_endstops false or use negative value get with with the M851 command, 
-        Ansure Eprom is intialised from Marlin
+*#define min_software_endstops false* or use negative value get with with the M851 command, 
+*Ensure Eprom is intialised from Marlin*       
 
 *  M851 ; note the number
 *  M851 Z0 ; set the offset to zero
