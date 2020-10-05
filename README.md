@@ -26,21 +26,21 @@ https://locxess.de/3d/BLTouch_Anleitung_englisch.pdf
 *Emphasized text* Pre-req(s) #define min_software_endstops false or use negative value get with with the M851 command, 
         Ansure Eprom is intialised from Marlin
 
-* Bullet list M851 ; note the number
-* Bullet list M851 Z0 ; set the offset to zero
-* Bullet list G28 ; home all axis
-* Bullet list G1 Z0; Z axis go to zero position
-* Bullet list The LCD display should show Z = 0
-* Bullet list From the display go to the Menu then Prepare/Move axis/0.1mm/Move Z
-* Bullet list Move the Z axis slowly down until the nozzle is the right distance from the build plate (paper test).*
-* Bullet list Note the Z axis value on the display it should be something like -1.5
-* Bullet list M851 Z-1.5 ; to set the offset you got in the previous step.
-* Bullet list M500 ; Stores the values in EEPROM so that it is not reset when you power the printer off and on.
+*  M851 ; note the number
+*  M851 Z0 ; set the offset to zero
+*  G28 ; home all axis
+*  G1 Z0; Z axis go to zero position
+*  The LCD display should show Z = 0
+*  From the display go to the Menu then Prepare/Move axis/0.1mm/Move Z
+*  Move the Z axis slowly down until the nozzle is the right distance from the build plate (paper test).*
+*  Note the Z axis value on the display it should be something like -1.5
+*  M851 Z-1.5 ; to set the offset you got in the previous step.
+*  M500 ; Stores the values in EEPROM so that it is not reset when you power the printer off and on.
 
-* Bullet list If you need to increase or decrease the gap then do:
-* Bullet list M851 Z-1.4 ; Make the gap bigger or
-* Bullet list M851 Z-1.6 ; Make the gap smaller
-* Bullet list M500 ; to save the value to EEPROM
+*  If you need to increase or decrease the gap then do:
+*  M851 Z-1.4 ; Make the gap bigger or
+*  M851 Z-1.6 ; Make the gap smaller
+*  M500 ; to save the value to EEPROM
 
 ##### Slicer settings
 
