@@ -25,7 +25,7 @@ See https://github.com/AIIoT/2.0.x-SapphirePro-BLTouch
 #### BlTouch/3dTouch Wiring (Robin Nano 1.x)
 
 Inline-style: 
-![alt text](https://github.com/sajrashid/Marlin-bugfix-2.0.x-/blob/master/Images/BltouchWiring.Png "BltouchWiring")
+![alt text](https://github.com/sajrashid/Marlin-bugfix-2.0.x-/blob/master/Images/BltouchWiring.PNG "BltouchWiring")
 
 ##### Calibration
 
