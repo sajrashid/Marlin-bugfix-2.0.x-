@@ -1,10 +1,12 @@
-# Mks-Robin-Nano-Marlin2.0-Firmware
+# Mks-Robin-Nano-Marlin2.0-Firmware customised for TwoTrees Sappire Pro
+
 ## Features
 The firmware of Mks Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin)(The based version is based on Marlin2.0 bugfix) and the below by   
 alpine https://github.com/inib/Marlin/blob/2.0.X-SapphirePro-3.5TFT/
 
 ### Caution Beta Release
 *Updated Firmware Binary file*
+This Firmware is specific, for the <b>TwoTrees Sappire Pro.</b>
 You should ideally compile the binary, for noobs (we are all noobs at some point) I've included the firmware bin file 
 From the Firmware folder Copy to Robin_nano35.bin to a sd card and power on/ reboot your printer, firmware should flash straight away, takes less that a minute to complete
 *If the process does not start try renaming Robin_nano35.bin to Robin_nano.bin *
@@ -15,7 +17,7 @@ https://escope.de/posts/sapphire-pro-marlin/
 
 #### **Vanilla Marlin Touch UI**
 
-Settings for the Two tree's Sappire S PRO
+Settings for the Two tree's Sappire S PRO + BlTouch/3dTouch
 
 
 #### Added BlTouch/3dTouch support 
@@ -24,7 +26,6 @@ See https://github.com/AIIoT/2.0.x-SapphirePro-BLTouch
 
 #### BlTouch/3dTouch Wiring (Robin Nano 1.x)
 
-Inline-style: 
 ![alt text](https://github.com/sajrashid/Marlin-bugfix-2.0.x-/blob/master/Images/BltouchWiring.PNG "BltouchWiring")
 
 ##### Calibration
