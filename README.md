@@ -1,5 +1,8 @@
 # Mks-Robin-Nano-Marlin2.0-Firmware customised for TwoTrees Sappire Pro
 
+## updates will be published to the Marlin fork [here](https://github.com/sajrashid/Marlin/tree/SapphirePro)
+
+
 ## Features
 The firmware of Mks Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin)(The based version is based on Marlin2.0 bugfix) and the below by   
 alpine https://github.com/inib/Marlin/blob/2.0.X-SapphirePro-3.5TFT/
